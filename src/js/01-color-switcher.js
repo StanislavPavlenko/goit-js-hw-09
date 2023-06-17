@@ -13,7 +13,7 @@ let timerId = null;
 refs.btnStart.addEventListener('click', onStart);
 refs.btnStop.addEventListener('click', onStop);
 
-function btnStart() {
+function onStart() {
     refs.btnStop.disabled = '';
     refs.btnStart.disabled = 'disabled';
     document.body.style.backgroundColor = getRandomHexColor();
